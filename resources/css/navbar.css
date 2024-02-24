@@ -39,11 +39,7 @@
         background-color: #2196F3;
         color: white;
     }
-    
-    .topnav .search-container {
-        float: right;
-    }
-    
+
     .topnav .icon {
         display: none;
       }
@@ -53,21 +49,6 @@
         margin-top: 8px;
         font-size: 17px;
         border: none;
-    }
-    
-    .topnav .search-container button {
-        float: right;
-        padding: 6px 10px;
-        margin-top: 8px;
-        margin-right: 16px;
-        background: #ddd;
-        font-size: 17px;
-        border: none;
-        cursor: pointer;
-    }
-    
-    .topnav .search-container button:hover {
-        background: #ccc;
     }
 
        /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
