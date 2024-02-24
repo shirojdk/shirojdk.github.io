@@ -30,20 +30,64 @@
     }
     
   }
-  
+
   .YT{
     position: relative;
     border:#2196F3;
-    aspect-ratio: 20 / 15;
+    aspect-ratio: 4 / 3;
     width: 100%;
   }
-  .no{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+
+  .articles{    
+    margin-bottom: 20px;
+    color: white;
+    padding-top: 40px;
   }
 
+  .section-header {
+    margin: 0;
+    background-color: black;
+    position: relative;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+      border-bottom-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 3px 4px 5px rgba(0,0,0,.25);
+    height: 51px;
+    width: 100%;
+    padding: 0 25px;
+    float: left;
+  }
+
+  .section-header h3 {
+    line-height: 50px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .here-lies-content {
+    background-color: #272727;
+    opacity:80%;
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+    padding-top: 10px;
+    position: relative;
+    float: left;
+  }
+.content {
+      position: absolute; /* Position the background text */
+      bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+      background: rgb(0, 0, 0); /* Fallback color */
+      background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+      color: #f1f1f1; /* Grey text */
+      width: 100%; /* Full width */
+      padding: 20px; /* Some padding */
+    }
+
+  .extra-content{
+    width: 100%;
+  }
   .maintaince{
     text-align: center;
     font-size: x-large;
