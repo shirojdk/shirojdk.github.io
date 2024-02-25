@@ -88,6 +88,12 @@
   .extra-content{
     width: 100%;
   }
+.no{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
   .maintaince{
     text-align: center;
     font-size: x-large;
